@@ -4,7 +4,7 @@ CREATE TABLE users (
     address varchar(50) NOT NULL,
     latitude DECIMAL(16,14) NOT NULL,
     longitude DECIMAL(17,14) NOT NULL,
-    user_image varchar(50) DEFAULT 'https://i.ibb.co/yPsLB6L/avatar.png',
+    user_image varchar(50) DEFAULT, 
     nickname varchar(50) NOT NULL,
     description varchar(50) NULL,
     social_id varchar(50) NOT NULL,

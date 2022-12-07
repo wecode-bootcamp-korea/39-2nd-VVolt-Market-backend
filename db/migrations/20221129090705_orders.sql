@@ -7,6 +7,8 @@ CREATE TABLE orders (
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (product_id) REFERENCES products(id),
     FOREIGN KEY (order_status_id) REFERENCES order_status(id)
+    FOREIGN KEY (payment_id) REFERENCES payment(id),
+    UNIQUE(order_status_id)
     )
 
 -- migrate:down

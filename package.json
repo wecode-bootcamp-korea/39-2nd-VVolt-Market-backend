@@ -1,7 +1,6 @@
 {
   "name": "hansol",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "DOTENV_CONFIG_PATH=.env.test jest --setupFiles=dotenv/config",
@@ -26,5 +25,17 @@
   "devDependencies": {
     "prettier": "2.7.1",
     "supertest": "^6.3.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wecode-bootcamp-korea/39-2nd-VVolt-Market-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wecode-bootcamp-korea/39-2nd-VVolt-Market-backend/issues"
+  },
+  "homepage": "https://github.com/wecode-bootcamp-korea/39-2nd-VVolt-Market-backend#readme",
+  "description": ""
 }
